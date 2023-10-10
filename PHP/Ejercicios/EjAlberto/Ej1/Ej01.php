@@ -5,5 +5,5 @@
     $x2 = 10;
     $addition = $x1 + $x2;
     
-    echo "La suma de $x1 y $x2 es: $addition";
+    echo "La suma de $x1 y $x2 es: $addition"; 
 ?>
