@@ -1,5 +1,5 @@
 <?php
-    print("<h1>Ejercicio 2</h1>"); /*2. Completa el siguiente código para que muestre el número de elementos del array $frutas:  
+    print("<h1>EJERCICIO 2</h1>"); /*2. Completa el siguiente código para que muestre el número de elementos del array $frutas:  
                                         <?php 
                                             $frutas = array("Manzana", "Plátano", "Naranja"); 
                                             //Mostrar el número de elementos del array anterior 
