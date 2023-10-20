@@ -1,11 +1,10 @@
 <?php  
     session_start();
     if (!isset($_SESSION['arrayItems'])) { $_SESSION['arrayItems'] = array(); }
-    $_SESSION['arrayItems'] = array();
+    if (!isset($_SESSION['insertProduct'])) { $_SESSION['insertProduct'] = ""; }
+    //$_SESSION['arrayItems'] = array();
     $arrayItems = $_SESSION['arrayItems'];
-    $item1 = new Item("Manzana", 30, 1); $item2 = new Item("Plátano", 20, 2); $item3 = new Item("Peras", 10, 3);
-    array_push($arrayItems, $item1, $item2, $item3);
-    $_SESSION['arrayItems'] = $arrayItems;
+    $insertProduct = $_SESSION['insertProduct'];
     
     class Item{
         //PROPIEDADES________________________________________________________________
@@ -15,7 +14,7 @@
         
         
         //CONSTRUCTOR________________________________________________________________
-        function __construct($name ,$quantity ,$price) {
+        function __construct($name, $quantity, $price) {
             $this->name = $name;
             $this->quantity = $quantity;
             $this->price = $price;
@@ -42,6 +41,7 @@
 
 
 
+    //INDEX
     function CalculateTotalProduct() {
         $arrayItems = $_SESSION['arrayItems'];
 
@@ -64,5 +64,42 @@
             $totalPurchasePrice += $total;
         }
         return $totalPurchasePrice;
+    }
+
+
+
+
+
+    //INSERT
+    function insertProduct($name, $quantity, $price) {
+        if (isValidName($name)) {
+            if (isValidQuantity($quantity)) {
+                if (isValidPrice($price)) {
+                    $quantity = intval($quantity);
+                    $price = floatval($price);
+                    array_push($_SESSION['arrayItems'], new Item($name, $quantity, $price));
+                    var_export($_SESSION['arrayItems']);
+                    return "Producto añadido";
+                } return "El precio no es válido";
+            } return "La cantidad no es válida";
+        } return "El nombre no es válido";
+    }
+
+
+
+    //isValid
+    function isValidName($string) {
+        $pattern = "/^[a-zA-Z\sñáéíóúÁÉÍÓÚ]+$/";
+        return preg_match($pattern, trim($string));
+    }
+
+    function isValidQuantity($int) {
+        $pattern = "/^[1-9]\d*$/";
+        return preg_match($pattern, trim($int));
+    }
+
+    function isValidPrice($numeric) {
+        $pattern = "/^[1-9]\d*(\.\d{1,2})?$/";
+        return preg_match($pattern, trim($numeric));
     }
 ?>
