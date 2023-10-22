@@ -5,6 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>DressFruits</title>
 </head>
 <body>
@@ -24,6 +26,7 @@
                 echo"<table border='2px' align='center'>
                 
                         <tr>
+                            <th>     ID     </th>
                             <th>    Name    </th>
                             <th>  Quantity  </th>
                             <th>    Price   </th>
@@ -32,6 +35,7 @@
 
                         for ($i = 0; $i < count($arrayItems); $i++) {
                     echo"<tr align='center'>
+                            <td> <p>{$arrayItems[$i]->getId()}          </p> </td> 
                             <td> <p>{$arrayItems[$i]->getName()}        </p> </td>
                             <td> <p>{$arrayItems[$i]->getQuantity()}    </p> </td>
                             <td> <p>{$arrayItems[$i]->getPrice()}       </p> </td>
@@ -40,7 +44,7 @@
                         }
 
                     echo"<tr>
-                            <td colspan='3'>    <p>"    .CalculateTotalProduct().    "  </p>    </td>
+                            <td colspan='4'>    <p>"    .CalculateTotalProduct().    "  </p>    </td>
                             <td colspan='1'>    <p>" .CalculateTotalPurchasePrice(). "  </p>    </td>
                         </tr>
 
