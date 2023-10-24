@@ -9,9 +9,10 @@
 
 
     //String insert/delete/modify
-    if (!isset($_SESSION['insertProduct'])) { $_SESSION['insertProduct'] = ""; } $insertProduct = $_SESSION['insertProduct'];
-    if (!isset($_SESSION['deleteProduct'])) { $_SESSION['deleteProduct'] = ""; } $deleteProduct = $_SESSION['deleteProduct'];
-    if (!isset($_SESSION['modifyProduct'])) { $_SESSION['modifyProduct'] = ""; } $modifyProduct = $_SESSION['modifyProduct'];
+    if (!isset($_SESSION['insertProduct'])) { $_SESSION['insertProduct'] = ""; }    $insertProduct = $_SESSION['insertProduct'];
+    if (!isset($_SESSION['deleteProduct'])) { $_SESSION['deleteProduct'] = ""; }    $deleteProduct = $_SESSION['deleteProduct'];
+    if (!isset($_SESSION['modifyProduct'])) { $_SESSION['modifyProduct'] = ""; }    $modifyProduct = $_SESSION['modifyProduct'];
+    if (!isset($_SESSION['takeMod']))       { $_SESSION['takeMod'] = ""; }          $takeMod = $_SESSION['takeMod'];
     
     
 
@@ -102,27 +103,13 @@
                 if (isValidPrice($price)) {
                     $quantity = intval($quantity);
                     $price = floatval($price);
+
                     array_push($_SESSION['arrayItems'], new Item($name, $quantity, $price));
+
                     return "Producto añadido";
                 } return "El precio no es válido";
             } return "La cantidad no es válida";
         } return "El nombre no es válido";
-    }
-
-    //isValid
-    function isValidName($string) {
-        $pattern = "/^[a-zA-Z\sñáéíóúÁÉÍÓÚ]+$/";
-        return preg_match($pattern, trim($string));
-    }
-
-    function isValidQuantity($int) {
-        $pattern = "/^[1-9]\d*$/";
-        return preg_match($pattern, trim($int));
-    }
-
-    function isValidPrice($numeric) {
-        $pattern = "/^[1-9]\d*(\.\d{1,2})?$/";
-        return preg_match($pattern, trim($numeric));
     }
 
 
@@ -147,4 +134,53 @@
             }
         }
     }
+
+
+
+
+
+    //MODIFY
+    function modifyValues($id, $name, $quantity, $price) {
+        if (isValidName($name)) {
+            if (isValidQuantity($quantity)) {
+                if (isValidPrice($price)) {
+                    $quantity = intval($quantity);
+                    $price = floatval($price); 
+
+
+                    $arrayItems = $_SESSION['arrayItems'];
+
+                    for ($i = 0; $i < count($arrayItems); $i++) {
+                        if ($id == $arrayItems[$i]->getId()) {
+                            $arrayItems[$i]->setName($name);
+                            $arrayItems[$i]->setQuantity($quantity);
+                            $arrayItems[$i]->setPrice($price);
+                        }
+                    }
+
+                    return "Producto modificado";
+                } return "Producto no modificado: El precio no es válido";
+            } return "Producto no modificado: La cantidad no es válida";
+        } return "Producto no modificado: El nombre no es válido";
+    }
+
+
+
+
+
+        //isValid
+        function isValidName($string) {
+            $pattern = "/^[a-zA-Z\sñáéíóúÁÉÍÓÚ]+$/";
+            return preg_match($pattern, trim($string));
+        }
+    
+        function isValidQuantity($int) {
+            $pattern = "/^[1-9]\d*$/";
+            return preg_match($pattern, trim($int));
+        }
+    
+        function isValidPrice($numeric) {
+            $pattern = "/^((0\.((0[1-9])|([1-9]\d{0,1})))|([1-9]\d*(\.\d{1,2})?))$/";
+            return preg_match($pattern, trim($numeric));
+        }
 ?>

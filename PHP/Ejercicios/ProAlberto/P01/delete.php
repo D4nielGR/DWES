@@ -77,13 +77,13 @@
                             <tr>
                                 <td colspan='4'>    <p>"    .CalculateTotalProduct().    "  </p>    </td>
                                 <td colspan='1'>    <p>" .CalculateTotalPurchasePrice(). "  </p>    </td>
-                                <form action='delete.php' method='post'>
-                                    <input type='hidden'  name='takeDelete' value='-1'> 
-                                    <td colspan='1'> <p><input type='submit' value='-'>     </p> </td>
-                                </form>
+                            <form action='delete.php' method='post'>
+                                <input type='hidden'  name='takeDelete' value='-1'> 
+                                <td colspan='1'> <p><input type='submit' value='-'>     </p> </td>
+                            </form>
                             </tr>
 
-                        </table>";
+                    </table>";
                 }
             }
         ?>
