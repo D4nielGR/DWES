@@ -1,0 +1,768 @@
+Started on	Friday, 3 November 2023, 12:10 PM
+State	Finished
+Completed on	Friday, 3 November 2023, 12:45 PM
+Time taken	35 mins 44 secs
+Marks	27.50/38.00
+Grade	7.24 out of 10.00 (72.37%)
+Question 1
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What components make up the LAMP stack?
+
+a.
+Language, Storage, Middleware, Programming
+
+b.
+Linux, Angular, MongoDB, Python
+
+c.
+Logic, Authentication, Modules, Protocols
+
+d.
+Linux, Apache, MySQL, PHP
+Feedback
+The correct answer is: Linux, Apache, MySQL, PHP
+Question 2
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What function is used to display output in PHP?
+
+a.
+echo()
+
+b.
+output()
+
+c.
+print_output()
+
+d.
+display()
+Feedback
+The correct answer is: echo()
+Question 3
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+A web app:
+
+a.
+No answer is correct.
+
+b.
+Uses dynamic web pages to create an app on the pc of the user.
+
+c.
+Uses dynamic web pages to create an app on the browser.
+
+d.
+Uses static web pages to create an app on the browser.
+Feedback
+The correct answer is: Uses dynamic web pages to create an app on the browser.
+Question 4
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Communication between the web server and the client:
+
+a.
+Is carried out by the UUCP or CFT protocols.
+
+b.
+Is carried out by the HTTP or HTTPS protocols.
+
+c.
+Is carried out by the FTP or SFTP protocols.
+
+d.
+Is carried out by tiny vietnamese people inside my computer, the TVP protocol.
+Feedback
+The correct answer is: Is carried out by the HTTP or HTTPS protocols.
+Question 5
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the correct way to print "Hello world" in PHP?
+
+a.
+print "Hello world";
+
+b.
+echo "Hello world";
+
+c.
+print
+
+d.
+printf("Hello world");
+
+e.
+("Hello world");
+Feedback
+The correct answers are: echo "Hello world";, ("Hello world");
+Question 6
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the purpose of the "implode" function?
+
+a.
+To reverse the order of elements in an array.
+
+b.
+To sort an array in ascending order.
+
+c.
+To concatenate an array into a single string using a delimiter.
+
+d.
+To split a string into an array based on a delimiter";
+Feedback
+The correct answer is: To concatenate an array into a single string using a delimiter.
+Question 7
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+Which one isn't a way of commenting in PHP
+
+a.
+
+b.
+/**/
+
+c.
+//
+Feedback
+The correct answer is:
+Question 8
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which one is not a simple type in PHP
+
+a.
+float
+
+b.
+array
+
+c.
+int
+
+d.
+string
+Feedback
+The correct answer is: array
+Question 9
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+$valor++; What type of operator is it?:
+
+a.
+Decrement
+
+b.
+Increment
+
+c.
+Rest
+
+d.
+Sum
+Feedback
+The correct answer is: Increment
+Question 10
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of these technologies allows the web server to execute programs written in any language?:
+
+a.
+Java
+
+b.
+PHP
+
+c.
+CGI
+
+d.
+AMP
+Feedback
+The correct answer is: CGI
+Question 11
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What does PHP stand for?
+
+a.
+People's Home Page
+
+b.
+Hypertext Preprocessor
+
+c.
+Public Hosting Platform
+
+d.
+Perfect Handling Protocol
+Feedback
+The correct answer is: Hypertext Preprocessor
+Question 12
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following symbols is used to concatenate strings in PHP?
+
+a.
+.
+
+b.
+,
+
+c.
+-
+
+d.
++
+Feedback
+The correct answer is: .
+Question 13
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the purpose of the PHP if statement?
+
+a.
+To include an external PHP file
+
+b.
+To define a new function in PHP
+
+c.
+To execute a block of code conditionally
+
+d.
+To start a loop in PHP
+Feedback
+The correct answer is: To execute a block of code conditionally
+Question 14
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+What is the scope of a variable declared within a function in PHP?
+
+a.
+Local
+
+b.
+Global
+
+c.
+Static
+
+d.
+Local
+Feedback
+The correct answer is: Local
+Question 15
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+In PHP, which type of variable is accessible only within the function where it is declared?
+
+a.
+Global
+
+b.
+Local
+
+c.
+Static
+
+d.
+Local
+Feedback
+The correct answer is: Local
+Question 16
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+What is the scope of a variable declared outside of any function or class in PHP?
+
+a.
+Global
+
+b.
+Local
+
+c.
+Static
+
+d.
+Global
+Feedback
+The correct answer is: Global
+Question 17
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What type of simple data in PHP exists?:
+
+a.
+Arrays,forms and database.
+
+b.
+Integer, undefined and null.
+
+c.
+Main,classes and objects.
+
+d.
+Boolean,integer,float,string, null and others.
+Feedback
+The correct answer is: Boolean,integer,float,string, null and others.
+Question 18
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following variables has been declared incorrectly?
+
+a.
+$5students;
+
+b.
+$students;
+
+c.
+$_students;
+
+d.
+$students_class;
+Feedback
+The correct answer is: $5students;
+Question 19
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+W3C:
+
+a.
+Develops and maintains web tecnology standards
+
+b.
+Develops application servers
+
+c.
+No answer is correct
+
+d.
+Elaborates mandatory regulation for developers
+Feedback
+The correct answer is: Develops and maintains web tecnology standards
+Question 20
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+The basic language for the elaboration of web pages is:
+
+a.
+HTTPS
+
+b.
+HTTP
+
+c.
+No answer is correct
+
+d.
+HTML
+Feedback
+The correct answer is: HTML
+Question 21
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+In the three-layer model, the logic of the graphic interface is placed in the layer of:
+
+a.
+Presentation
+
+b.
+Data
+
+c.
+Business
+
+d.
+Model
+Feedback
+The correct answer is: Presentation
+Question 22
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+In the three-layer model there is no direct communication between:
+
+a.
+Data and Presentation layers
+
+b.
+Presentation and Business layers
+
+c.
+Data and Business layers
+
+d.
+No answer is correct
+Feedback
+The correct answer is: Data and Presentation layers
+Question 23
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In the client-server model, communication is initiated by:
+
+a.
+The client
+
+b.
+None
+
+c.
+The server
+
+d.
+Both
+Feedback
+The correct answer is: The client
+Question 24
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the port associated with the HTTP protocol?
+
+a.
+8000
+
+b.
+90
+
+c.
+443
+
+d.
+80
+Feedback
+The correct answer is: 80
+Question 25
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the port associated with the HTTPS protocol?
+
+a.
+8000
+
+b.
+80
+
+c.
+443
+
+d.
+90
+Feedback
+The correct answer is: 443
+Question 26
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+XAMPP includes:
+
+a.
+PHP and databases
+
+b.
+No answer is correct
+
+c.
+PHP and web server
+
+d.
+PHP, web server and databases
+Feedback
+The correct answer is: PHP, web server and databases
+Question 27
+Incorrect
+Mark -0.25 out of 1.00
+Flag question
+Question text
+Which of the following is not a W3C standard?
+
+a.
+HTML
+
+b.
+CGI
+
+c.
+CSS
+
+d.
+HTTP
+Feedback
+The correct answer is: CGI
+Question 28
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+If CGI is used, requests are answered:
+
+a.
+Using an executable on the web server
+
+b.
+No answer is correct
+
+c.
+Using a web server module
+
+d.
+Using a servlet on the web server
+Feedback
+The correct answer is: Using an executable on the web server
+Question 29
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+To install XAMPP on Windows:
+
+a.
+No answer is correct
+
+b.
+Download the executable from their web site and install everything you need
+
+c.
+It is already installed by default
+
+d.
+Is not possible to install it on Windows
+Feedback
+The correct answer is: Download the executable from their web site and install everything you need
+Question 30
+Not answered
+Marked out of 1.00
+Flag question
+Question text
+In php.ini, the directive used to define the maximum time a script can run for is named
+
+a.
+max_execution_time
+
+b.
+file_max_filesize
+
+c.
+file_uploads
+
+d.
+error_reporting
+Feedback
+The correct answer is: max_execution_time
+Question 31
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Select the correct answer:
+
+a.
+Variables must be declared in the beginning of the program
+
+b.
+Variables must be declared in the funtions
+
+c.
+It is not necessary to indicate the type of data when declaring a variable
+
+d.
+In the PHP language all variables must be declared before using them
+Feedback
+The correct answer is: It is not necessary to indicate the type of data when declaring a variable
+Question 32
+Incorrect
+Mark -0.25 out of 1.00
+Flag question
+Question text
+The result of executing code on a web server is a web page that:
+
+a.
+It can also include code in JavaScript language
+
+b.
+It can contain intermediate language sentences
+
+c.
+It can be exactly the same as a static web page
+
+d.
+It is stored on the web server to respond to future requests
+Feedback
+The correct answer is: It can be exactly the same as a static web page
+Question 33
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following is a PHP framework?
+
+a.
+Spring
+
+b.
+AngularJS
+
+c.
+Django
+
+d.
+Symofy
+Feedback
+The correct answer is: Symofy
+Question 34
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the correct way to include a file in PHP and halt the script execution if the file is not found?
+
+a.
+Include("file.php");
+
+b.
+Include_once("file.php");
+
+c.
+Require("file.php");
+
+d.
+Require_once("file.php");
+Feedback
+The correct answer is: Require("file.php");
+Question 35
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+How do you assign a value to a cookie named "username" in PHP?
+
+a.
+Cookie("username", "name");
+
+b.
+$_COOKIE["username"]
+
+c.
+Setcookie("username", "name");
+
+d.
+Create_cookie("username", "name");
+
+e.
+"name";
+Feedback
+The correct answers are: Setcookie("username", "name");, "name";
+Question 36
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which PHP directive is used to increase the file upload size limit?
+
+a.
+File_upload_limit
+
+b.
+Post_max_size
+
+c.
+Max_file_size
+
+d.
+Upload_max_size
+Feedback
+The correct answer is: Upload_max_size
+Question 37
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What are the two main parts that comprise a web page and work together for its works?
+
+a.
+Header and footer
+
+b.
+HTML and CSS
+
+c.
+Front end and back end
+
+d.
+Web server and database
+Feedback
+The correct answer is: Front end and back end
+Question 38
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What are the three main layers used to structure web applications?
+
+a.
+Presentation layer, business logic layer, and data access layer
+
+b.
+Design layer, security layer, and data access layer
+
+c.
+User interface layer, communication layer, and graphic design layer
+
+d.
+Server layer, client layer, and file access layer
+Feedback
+The correct answer is: Presentation layer, business logic layer, and data access layer
