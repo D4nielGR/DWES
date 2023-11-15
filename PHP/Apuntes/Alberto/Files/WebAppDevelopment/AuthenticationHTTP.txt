@@ -1,0 +1,6 @@
+What is the difference between basic auth and digest auth?
+Digest authentication is another authentication type specified in HTTP 1.1. 
+Unlike basic authentication, digest authentication does not require the password to be transmitted. 
+Rather, the client takes the username and password and uses the MD5 hashing algorithm to create a hash, which is then sent to the SQL Server.
+
+https://www.php.net/manual/en/features.http-auth.php
