@@ -57,7 +57,7 @@
 				if($resultado) {
 					$row = $resultado->fetch_assoc();
 					while ($row != null) {
-						echo "<p>Tienda ${row['nombre']}: ${row['unidades']} unidades.</p>";
+						echo "<p>Tienda {$row['nombre']}: {$row['unidades']} unidades.</p>";
 						$row = $resultado->fetch_assoc();
 					}
 					$resultado->close();
