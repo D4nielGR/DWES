@@ -1,0 +1,731 @@
+Question 1
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+We have a float variable, and we want to display it using a fixed number of decimal places, for example 3. Can we do this without using the printf function?
+
+a.
+Yes
+Indeed. From the float variable, and using the sprintf function, we can obtain a string with the exact text we want to display, by doing sprintf("%.3f", $a).
+
+b.
+No
+Feedback
+The correct answer is: Yes
+Question 2
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Can a switch statement always be replaced by another if statement(s)?
+
+a.
+No
+
+b.
+Yes
+Indeed, a switch statement can always be replaced by one or more if statements. A switch statement can always be replaced by one or more if statements in which the conditions of each if statement will be to compare the value of the variable with each of the constants contained in the case statements.
+Feedback
+The correct answer is: Yes
+Question 3
+Incorrect
+Mark -1.00 out of 1.00
+Flag question
+Question text
+If you want to display a text string letter by letter, and you don't know if it is empty, what kind of loop would you use, while or do-while?
+
+a.
+while
+
+b.
+do-while
+Wrong. Think about how you would do the algorithm and what would be displayed on the screen if the string were empty.
+Feedback
+The correct answer is: while
+Question 4
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Can you use 'include' or 'require' to include the same HTML header in multiple pages?
+
+a.
+Yes.
+Yes, it does. As you have already seen, the content of external files will be locked as HTML unless the delimiters are present. It is not necessary to include PHP code in an external file in order to use include or require with it.
+
+b.
+No.
+Feedback
+The correct answer is: Yes.
+Question 5
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Is the following function well defined with the following header?
+
+function precio_final (&$precio, $iva=0.18, $aplicar_iva)
+
+a.
+Yes.
+
+b.
+No.
+Correct. The function cannot have these arguments, because the optional ones ($vat) must be to the right of any other that does not have a default value ($apply_vat).
+Feedback
+The correct answer is: No.
+Question 6
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Will the array initialization in the following code generate any errors?
+
+$a[0] = 0;
+
+$a[1] = "uno";
+
+$a["tres"] = 3;
+
+a.
+Yes.
+
+b.
+No.
+Correct. The key of an array need not always be numeric or text. Both types of values can be mixed.
+Feedback
+The correct answer is: No.
+Question 7
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In PHP, the variables:
+
+a.
+Have a data type that can not change.
+
+b.
+Have a data type that can change.
+
+c.
+No data type.
+
+d.
+No answer is correct.
+Feedback
+The correct answer is: Have a data type that can change.
+Question 8
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Funtions in PHP:
+
+a.
+Can return different types of data depending on the case.
+
+b.
+They do not have to declare the type of data they return, but they always have to return the same one.
+
+c.
+Have to declare the type of data they return.
+
+d.
+No answer is correct.
+Feedback
+The correct answer is: Can return different types of data depending on the case.
+Question 9
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In PHP arrays if no key is assigned when inserting an element:
+
+a.
+It's assigned a numerical key.
+
+b.
+It's inserted without key.
+
+c.
+It's impossible, an error occurs.
+
+d.
+No answer is correct.
+Feedback
+The correct answer is: It's assigned a numerical key.
+Question 10
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+The order of the elements of an array is determined by:
+
+a.
+The key
+
+b.
+Their insertion order
+
+c.
+Their value
+
+d.
+No answer is correct.
+Feedback
+The correct answer is: Their insertion order
+Question 11
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+The output of these lines of code is:
+
+$arr = array(2,2,2,2);
+
+foreach($arr as $element)
+{
+
+$element = $element * 2
+
+}
+
+foreach($arr as $element)
+{
+
+echo $element. " ";
+
+}
+
+a.
+2 2 2 2
+
+b.
+No answer is correct.
+
+c.
+error
+
+d.
+4 4 4 4
+Feedback
+The correct answer is: 2 2 2 2
+Question 12
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+The output of these lines of code is:
+
+
+
+$a = 4;
+
+$b = &$a;
+
+$a = 6;
+
+echo $b;
+
+a.
+8
+
+b.
+4
+
+c.
+No answer is correct.
+
+d.
+6
+Feedback
+The correct answer is: 6
+Question 13
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In PHP, arguments can be passed:
+
+a.
+No answer is correct.
+
+b.
+copy
+
+c.
+both
+
+d.
+value
+Feedback
+The correct answer is: both
+Question 14
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following is the correct way to start a PHP block?
+
+a.
+< ? start >
+
+b.
+< ?php
+
+c.
+< ?php block >
+
+d.
+< ? script >
+Feedback
+The correct answer is: < ?php
+Question 15
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+How do you comment out a single line in PHP?
+
+a.
+-- This is a comment
+
+b.
+!! This is a comment
+
+c.
+/* This is a comment */
+
+d.
+// This is a comment
+Feedback
+The correct answer is: // This is a comment
+Question 16
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+How do you comment out multiple lines of code in PHP?
+
+a.
+/* This is a comment */
+
+b.
+// This is a comment
+
+c.
+# This is a comment
+
+d.
+-- This is a comment
+Feedback
+The correct answer is: /* This is a comment */
+Question 17
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the purpose of the break statement in PHP?
+
+a.
+To define the termination condition for a loop.
+
+b.
+To skip the rest of the code and move to the next iteration of the loop.
+
+c.
+To check a condition before executing the loop.
+
+d.
+To end the execution of a loop or switch statement.
+Feedback
+The correct answer is: To end the execution of a loop or switch statement.
+Question 18
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following is used to execute a block of code only if a specified condition is true, and another block of code if the condition is false?
+
+a.
+if-else
+
+b.
+switch
+
+c.
+for
+
+d.
+foreach
+Feedback
+The correct answer is: if-else
+Question 19
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which loop in PHP will always execute at least once, even if the condition is initially false?
+
+a.
+while
+
+b.
+for
+
+c.
+foreach
+
+d.
+do-while
+Feedback
+The correct answer is: do-while
+Question 20
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following structure is commonly used to iterate over an array?
+
+a.
+iterate
+
+b.
+for
+
+c.
+foreach
+
+d.
+loop through
+Feedback
+The correct answer is: foreach
+Question 21
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which of the following options represents a composite data type?
+
+a.
+boolean
+
+b.
+array
+
+c.
+integer
+
+d.
+float
+Feedback
+The correct answer is: array
+Question 22
+Incorrect
+Mark -0.25 out of 1.00
+Flag question
+Question text
+How is the empty() function used in PHP, and what is its main purpose?
+
+a.
+Checks if a variable is empty.
+
+b.
+Verifies if an array contains no elements.
+
+c.
+Checks if a string is empty or contains only whitespace.
+
+d.
+Determines if a variable is empty or not defined.
+Feedback
+The correct answer is: Determines if a variable is empty or not defined.
+Question 23
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+In the context of PHP, what does the term "superglobals" mean, and what is their significance?
+
+a.
+These are pre-defined variables that are available throughout the script and have global scope.
+
+b.
+Static variables used to store temporary data.
+
+c.
+Refers to variables that can only be accessed from specific functions.
+
+d.
+Refers to local variables in a function.
+Feedback
+The correct answer is: These are pre-defined variables that are available throughout the script and have global scope.
+Question 24
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+To send data via forms:
+
+a.
+The POST protocol sends with HTTP, the GET protocol annexes its data to the URI
+
+b.
+The TVP protocol dispatches specialised TVPs in charge of delivering form data, called runners(TVRs).
+
+c.
+the GET protocol sends the data through the URI, and the POST method uses ftp
+
+d.
+We use the ask function
+Feedback
+The correct answer is: The POST protocol sends with HTTP, the GET protocol annexes its data to the URI
+Question 25
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What type of data is represented by the variable $num = 5;?
+
+a.
+Float
+
+b.
+Boolean
+
+c.
+String
+
+d.
+Integer
+Feedback
+The correct answer is: Integer
+Question 26
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Which one isn't a way of showing text in PHP
+
+a.
+echo
+
+b.
+printf
+
+c.
+println
+
+d.
+print
+Feedback
+The correct answer is: println
+Question 27
+Incorrect
+Mark -1.00 out of 1.00
+Flag question
+Question text
+Can the following code be used to traverse any $a array?
+
+
+while ($variable = $current($a))
+
+{
+
+...
+
+next($a);
+
+
+}
+
+a.
+No.
+
+b.
+Yes.
+Incorrect. Think about whether there is any condition that makes it possible to stop processing the array before all its elements have been traversed.
+Feedback
+The correct answer is: No.
+Question 28
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the content of the following value "$_SERVER['SERVER_ADDR']"?
+
+a.
+Web server name
+
+b.
+Server web IP address
+
+c.
+currently executing script
+
+d.
+None of the above
+Feedback
+The correct answer is: Server web IP address
+Question 29
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the purpose of the PHP function unset()?
+
+a.
+Destroys a specified variable, freeing up the memory it occupies.
+
+b.
+Determines if a variable is empty.
+
+c.
+Checks if a variable is set.
+
+d.
+Initializes a variable with a default value.
+Feedback
+The correct answer is: Destroys a specified variable, freeing up the memory it occupies.
+Question 30
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+How do you define a function in PHP?
+
+a.
+procedure miFuncion()
+
+b.
+function miFuncion[]
+
+c.
+function miFuncion()
+
+d.
+def miFuncion():
+Feedback
+The correct answer is: function miFuncion()
+Question 31
+Incorrect
+Mark -0.25 out of 1.00
+Flag question
+Question text
+What is the specific function to check and set the data type of a variable?
+
+a.
+settype()
+
+b.
+gettype();
+
+c.
+unset()
+
+d.
+is_array()
+Feedback
+The correct answer is: gettype();
+Question 32
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+The HTML forms are always enclosed between tags
+
+a.
+<"post"><"/post">;
+
+b.
+<"table"><"/table">;
+
+c.
+<"input"><"/input">;
+
+d.
+<"form"><"/form">
+Feedback
+The correct answer is: <"form"><"/form">
+Question 33
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+What is the purpose of the PHP function isset()?
+
+a.
+Checks if a file exists.
+
+b.
+Checks if a variable is set to null
+
+c.
+Determines whether a variable is declared and is not null.
+
+d.
+Verifies if a session has started.
+Feedback
+The correct answer is: Determines whether a variable is declared and is not null.
+Question 34
+Incorrect
+Mark -0.25 out of 1.00
+Flag question
+Question text
+What distinguishes the "POST" method from the "GET" method in web development?
+
+a.
+POST is suitable for read-only operations and GET is preferred for data modification
+
+b.
+GET appends data to the URL, while POST sends data in the HTTP request body
+
+c.
+GET is more secure than POST for transmitting sensitive information
+
+d.
+GET is used for submitting form data while POST is used for retrieving data from the server
+Feedback
+The correct answer is: GET appends data to the URL, while POST sends data in the HTTP request body
+Question 35
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+To write the text strings you use...
+
+a.
+" " (Double Quotes)
+
+b.
+' ' (Single Quotes)
+
+c.
+Both are valid
+
+d.
+None is correct
+Feedback
+The correct answer is: Both are valid
+Question 36
+Correct
+Mark 1.00 out of 1.00
+Flag question
+Question text
+Relate each variable to the information it contains:
+$_ENV	Answer 1
+Available environment variables.
+ 
+$_SERVER['DOCUMENT_ROOT']	Answer 2
+Root directory of the current script.
+ 
+$_SERVER['PHP_SELF']	Answer 3
+Script that is being executed.
+ 
+$_SESSION	Answer 4
+Available session variables.
+ 
+Feedback
+The correct answer is: $_ENV → Available environment variables., $_SERVER['DOCUMENT_ROOT'] → Root directory of the current script., $_SERVER['PHP_SELF'] → Script that is being executed., $_SESSION → Available session variables.
